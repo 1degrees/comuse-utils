@@ -1,0 +1,43 @@
+{
+  "name": "comuse-utils-rehype",
+  "version": "1.0.0",
+  "author": "张啸",
+  "title": "Comuse UI Rehype Plugin",
+  "description": "Comuse UI - The rehype plugin for Muya UI Docs",
+  "repository": "https://gitlab.qunhequnhe.com/muya-ui/baozheng.git",
+  "bugs": {
+    "url": "https://gitlab.qunhequnhe.com/muya-ui/baozheng/issues"
+  },
+  "main": "src/index.js",
+  "license": "MIT",
+  "peerDependencies": {
+    "typescript": ">=3.5.3"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.5.5",
+    "@babel/parser": "^7.5.5",
+    "@babel/traverse": "^7.5.5",
+    "@babel/types": "^7.5.5",
+    "docz-utils": "2.3.0",
+    "fast-glob": "^3.2.2",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "prettier": "^1.18.2",
+    "signale": "^1.4.0",
+    "unist-builder": "^1.0.4",
+    "unist-util-is": "^4.0.0",
+    "vfile": "^4.0.1"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "registry": "http://npm-registry.qunhequnhe.com/"
+  },
+  "release": {
+    "scripts": {
+      "pre-release": "npm version"
+    }
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

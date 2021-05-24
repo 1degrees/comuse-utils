@@ -1,0 +1,23 @@
+dist
+.temp
+.rn_temp/
+.history
+node_modules
+.DS_Store
+coverage/
+.idea
+*.css.map
+.sass-cache
+lib
+es
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+@types
+types
+*.tsbuildinfo
+
+## manual组件添加
+.docz/**
+__tests__/__snapshots__/
+lerna-debug.log
