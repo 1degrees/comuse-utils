@@ -1,6 +1,7 @@
 {
   "name": "root",
   "private": true,
+  "version": "1.0.0",
   "scripts": {
     "dev": "docz dev",
     "build": "docz build"
@@ -30,5 +31,8 @@
     "lerna": "^4.0.0",
     "@types/react": "^16.8.23",
     "@types/react-dom": "^16.8.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }

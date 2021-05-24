@@ -63,5 +63,7 @@
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
   },
-  "gitHead": "74932cd67112bacd1e29780a202d466acdd79535"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }

@@ -30,7 +30,7 @@
   },
   "sideEffects": false,
   "publishConfig": {
-    "registry": "http://npm-registry.qunhequnhe.com/"
+    "registry": "https://registry.npmjs.org/"
   },
   "release": {
     "scripts": {
